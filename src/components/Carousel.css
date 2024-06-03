@@ -1,0 +1,24 @@
+.product-carousel {
+  width: 100vw;
+  overflow: hidden;
+}
+.slider {
+  margin: 0 auto;
+  max-width: 90vw;
+}
+.product-card {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  img {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    max-width: 100%;
+  }
+}
